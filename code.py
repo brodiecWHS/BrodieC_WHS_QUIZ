@@ -22,4 +22,10 @@ print("Thanks for answering those questions")
 print ("Now we can get onto the real questions!")
 print("Question 1")
 
-adding new line
+#how to add multi choice questions
+print("do you want jam or honey")
+d1 = input("Do you want : A) Jam. B)Honey [A/B]: ")
+if d1 == "A":
+    print("Yum, Jam")
+if d1 == "B":
+    print("Sticky, Honey")
