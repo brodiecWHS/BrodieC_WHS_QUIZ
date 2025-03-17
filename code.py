@@ -25,8 +25,9 @@ user_fun = input()
 print(f"So your name is {str_userName}, you are {int_userAge} years old, and you enjoy {user_fun}.")
 time.sleep(1)
 print("Thanks for answering those questions.")
+time.sleep(1)
 print("Now we can get onto the real questions!")
-
+time.sleep(1)
 while True:
     print("Question 1")
     d1 = input("Do you want: A) Jam. B) Honey [A/B]: ").lower()
